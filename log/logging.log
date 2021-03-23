@@ -1,0 +1,4 @@
+2019-11-26 09:13:22 INFO  testNG:48 - Inside TC2 Logger
+2019-11-26 09:13:22 WARN  testNG:57 - Inside TC3 Logger
+2019-11-26 09:13:22 ERROR testNG:67 - Inside TC4 Logger
+2019-11-26 09:13:22 FATAL testNG:76 - Inside TC5 Logger

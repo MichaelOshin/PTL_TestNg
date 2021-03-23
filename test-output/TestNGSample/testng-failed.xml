@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNGSample]">
+  <listeners>
+    <listener class-name="org.JunitTestNgAnnotaions.ListenerTestNg"/>
+  </listeners>
+  <test thread-count="5" name="TestNGTest(failed)">
+    <classes>
+      <class name="org.GridDemo.GridHubNodeClient">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeclass"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="github"/>
+        </methods>
+      </class> <!-- org.GridDemo.GridHubNodeClient -->
+    </classes>
+  </test> <!-- TestNGTest(failed) -->
+</suite> <!-- Failed suite [TestNGSample] -->

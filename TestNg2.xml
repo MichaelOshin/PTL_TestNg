@@ -1,0 +1,29 @@
+<suite name="TestNGSample">
+	<test name="TestNGTest">
+		<groups>
+		
+			<define name="ALL">
+				<include name="REGRESION"/>
+				<exclude name="WEB"/>
+			</define>
+			
+			<define name="ALL1">
+				<include name="REGRESION"/>
+				<exclude name="WEB"/>
+			</define>
+			
+			<define name="ALL2">
+				<include name="REGRESION"/>
+				<exclude name="WEB"/>
+			</define>
+			
+			<run>
+				<include name="ALL"/>
+			</run>
+		</groups>
+		<parameter name="name" value="Anklesh"/>
+		<classes>
+			<class name="org.JunitTestNgAnnotaions.TestNgAnnotationTC"/>
+		</classes>
+	</test>
+</suite>
